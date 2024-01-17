@@ -62,9 +62,9 @@ namespace LoggerLibrary
 
     public class LogMessage
     {
-        public string Content { get; set; }
+        public string? Content { get; set; }
         public LogLevel Level { get; set; }
-        public string Namespace { get; set; }
+        public string? Namespace { get; set; }
     }
 
     public enum LogLevel
